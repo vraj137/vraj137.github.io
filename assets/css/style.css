@@ -451,7 +451,7 @@ section {
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
-  margin-left: 500px;
+  margin-left: 499px;
   margin-top: -2px;
   border-left: 2px solid #0563bb;
   position: relative;
@@ -543,7 +543,7 @@ section {
 }
 
 .portfolio-wrap {
-  left: 145px;
+  left: 0px;
 }
 
 .portfolio #portfolio-flters {
