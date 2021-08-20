@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #000000;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   color: rgb(0, 0, 0);
   align-items: center;
-  box-shadow: 0 0 5px rgb(0, 255, 42);
+  box-shadow: 0 0 10px #0563bb;
 }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
@@ -543,7 +543,7 @@ section {
 }
 
 .portfolio-wrap {
-  left: 0px;
+  left: -50px;
 }
 
 .portfolio #portfolio-flters {
