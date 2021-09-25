@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   content: "";
   position: absolute;
-  background: rgba(199, 199, 199, 0.87);
+  background: rgba(167, 167, 167, 0.87);
   bottom: 0;
   top: 0;
   left: 0;
@@ -544,6 +544,10 @@ section {
 
 .portfolio-wrap {
   left: -50px;
+}
+
+.col-lg-4 .col-md-6 .portfolio-item .filter-web {
+  left: 100%
 }
 
 .portfolio #portfolio-flters {
