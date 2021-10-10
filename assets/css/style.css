@@ -143,8 +143,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .arrow-down::after{
   content: "";
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   position: absolute;
   margin: auto;
   margin-bottom: px;
@@ -156,8 +156,8 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 4px solid #fff;
   -webkit-transform: rotate(45deg);
   transform: 45deg;
-  -webkit-animation: 3s arrow infinite ease;
-  animation: 3s arrow infinite ease;
+  -webkit-animation: 2.5s arrow infinite ease;
+  animation: 2.5s arrow infinite ease;
 }
 
 @-webkit-keyframes arrow {
@@ -546,9 +546,6 @@ section {
   left: -50px;
 }
 
-.col-lg-4 .col-md-6 .portfolio-item .filter-web {
-  left: 100%
-}
 
 .portfolio #portfolio-flters {
   padding: 0;
