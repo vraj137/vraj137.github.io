@@ -188,11 +188,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 30px;
-  background:  rgb(218, 218, 218);
+  background:  rgb(255, 255, 255);
   height: 55px;
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  border: 1px solid black;
 }
 
 .nav-menu a i {
@@ -201,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a span {
   padding: 50px 7px;
-  color: #45505b;
+  color: #002141;
 }
 
 @media (min-width: 992px) {
@@ -210,14 +211,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   .nav-menu a span {
     display: none;
-    color:rgb(218, 218, 218);
+    color:rgb(255, 255, 255);
   }
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   align-items: center;
   color: rgba(0, 0, 0, 0.836);
-  background:rgb(218, 218, 218);
+  background:rgb(255, 255, 255);
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -229,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   color: rgb(0, 0, 0);
   align-items: center;
-  box-shadow: 0 0 10px #0563bb;
+  box-shadow: 0 0 12px #000000;
 }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
@@ -312,6 +313,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero p span {
   color: #0563bb;
   letter-spacing: 1px;
+}
+
+.flex-container {
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 #hero .social-links {
@@ -428,9 +434,9 @@ section {
 
 .circle {
   background-color: #f8f8f8;
-  border: 1px solid #c8c8c8;
+  border: 3px solid #c8c8c8;
   margin-top: 25px;
-  border-radius: 5px;
+  border-radius: 50px;
   width: 250px;
   text-align: center;
   padding: 20px;
@@ -455,6 +461,7 @@ section {
   margin-top: -2px;
   border-left: 2px solid #0563bb;
   position: relative;
+  display: inline-block;
 }
 
 .resume-item-4 {
