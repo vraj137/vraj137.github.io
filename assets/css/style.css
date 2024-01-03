@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   #hero {
-    padding-left: 160px;
+    padding-left: 150px;
   }
 }
  
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0;
   font-size: 70px;
-  margin-left: 275px;
+  margin-left: 280px;
   font-weight: 800;
   line-height: 56px;
   color: #3f4750;
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
   color: #45505b;
   margin-top: 15px;
-  margin-left: 318px;
+  margin-left: 310px;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
 }
@@ -471,6 +471,10 @@ section {
   position: relative;
 
 }
+.resume-item h4 {
+  text-align: center;
+}
+
 .resume-item-4::before {
   content: "";
   position: absolute;
@@ -481,15 +485,17 @@ section {
   top: 9px;
   background: #fff;
   border: 2px solid #0563bb;
+  text-align: center;
 }
 
 .resume-item-4 h5 {
   font-size: 16px;
   background: #f7f8f9;
-  padding: 5px 15px;
+  padding: 5px 10px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .resume .resume-item-4 h4 {
