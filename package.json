@@ -1,0 +1,26 @@
+{
+  "name": "vraj137.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vraj137/vraj137.github.io.git"
+  },
+  "keywords": [
+    "Vraj's",
+    "Portfolio"
+  ],
+  "author": "Vraj Bhavsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vraj137/vraj137.github.io/issues"
+  },
+  "homepage": "https://github.com/vraj137/vraj137.github.io#readme"
+  
+  
+}
